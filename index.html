@@ -9,13 +9,13 @@
   <body>
     <nav>
       <ul>
-        <li><a href="about-us.htlm">About us</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#about-us">About us</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <section>
+    <section id="about-us">
       <h2>About us</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa
@@ -23,6 +23,73 @@
         quas voluptatem incidunt. Facere delectus amet dolorem, vero placeat
         repellat!
       </p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill">
+        <h3>nagłówek</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ab
+          recusandae sed unde sequi iste blanditiis, tempora laborum, culpa
+          dolores labore numquam officia soluta, repellendus assumenda vitae.
+          Unde, praesentium labore.
+        </p>
+      </div>
+      <div class="skill">
+        <h3>nagłówek</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ab
+          recusandae sed unde sequi iste blanditiis, tempora laborum, culpa
+          dolores labore numquam officia soluta, repellendus assumenda vitae.
+          Unde, praesentium labore.
+        </p>
+      </div>
+      <div class="skill">
+        <h3>nagłówek</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ab
+          recusandae sed unde sequi iste blanditiis, tempora laborum, culpa
+          dolores labore numquam officia soluta, repellendus assumenda vitae.
+          Unde, praesentium labore.
+        </p>
+      </div>
+      <div class="skill">
+        <h3>nagłówek</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ab
+          recusandae sed unde sequi iste blanditiis, tempora laborum, culpa
+          dolores labore numquam officia soluta, repellendus assumenda vitae.
+          Unde, praesentium labore.
+        </p>
+      </div>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio-item">
+        <img src="img/obraz1.jpg" />
+      </div>
+      <div class="portfolio-item">
+        <img src="img/obraz2.jpg" />
+      </div>
+      <div class="portfolio-item">
+        <img src="img/obraz3.jpg" />
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Jan Kowalski</h2>
+      <adress>
+        <p><a href="mailto:jankowalski@gmail.com">jankowalski@gmail.com</a></p>
+        <p>ul.Mickiewicza 120, Warszawa</p>
+      </adress>
+      <form>
+        <label for="fname">imię</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="topic">temat</label><br />
+        <input type="text" id="topic" name="topic" /><br />
+        <label for="message">wiadomość</label><br />
+        <input type="text" id="message" name="message" /><br />
+        <button type="button">Wyślij</button>
+      </form>
     </section>
   </body>
 </html>
